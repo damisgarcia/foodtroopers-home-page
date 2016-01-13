@@ -1,0 +1,101 @@
+// Theme
+body{
+  background: #fefefe;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+// Devices
+.ft-devices{
+  position: relative;
+  min-height: 600px;
+  .ft-device{
+    position: absolute;
+    top:5%;
+    left:5%;
+    z-index:9;
+    opacity: 0.2;
+    transition: all 1s ease;
+    &:hover{
+      cursor:pointer;
+    }
+    &.active{
+      top:15%;
+      left:20%;
+      z-index: 10;
+      opacity: 1;
+      &:hover{
+        cursor:default;
+      }
+    }
+  }
+}
+
+
+@media(max-width:750px){
+  .ft-devices{
+    min-height: 480px;
+    .ft-device{
+      top:-5%;
+      left:5%;
+      &.active{
+        top:10%;
+        left:5%;
+      }
+    }
+  }
+}
+
+.ft-bottom-nav{
+  li{
+    margin:0px 1.5rem;
+  }
+}
+
+@media(max-width:750px){
+  .ft-bottom-nav{
+    li{
+      margin:0px 0.3rem;
+    }
+  }
+
+}
+
+.ft-subtitle{
+  font-size:90%;
+  color:#666;
+}
+
+
+// Helpers
+.margin-bottom{
+  margin-bottom: 1.8rem;
+}
+
+.margin-large-bottom{
+  margin-bottom: 2.8rem;
+}
+
+.margin-top{
+  margin-top: 1.8rem;
+}
+
+.margin-large-top{
+  margin-top: 2.8rem;
+}
+
+.margin-left{
+  margin-left: 1.8rem;
+}
+
+.margin-large-left{
+  margin-left: 2.8rem;
+}
+
+
+.margin-right{
+  margin-right: 1.8rem;
+}
+
+.margin-large-right{
+  margin-right: 2.8rem;
+}
