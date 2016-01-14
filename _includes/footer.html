@@ -1,33 +1,35 @@
-<footer class="container">
-  <div class="row around-xs">
-    <div class="col-md-12">
-      <ul class="list-inline ft-bottom-nav pull-left">
-        <li>
-          <a class="page-link" href="/">Home</a>
-        </li>
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
+<footer>
+  <div class="container">
+    <div class="row around-xs">
+      <div class="col-md-12 center-xs">
+        <ul class="list-inline ft-bottom-nav pull-left">
           <li>
-            <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+            <a class="page-link" href="/">Home</a>
           </li>
-          {% endif %}
-        {% endfor %}
-        <li>
-          <a class="page-link" href="/">Facebook</a>
-        </li>
-        <li>
-          <a class="page-link" href="/">Instagram</a>
-        </li>
-      </ul>
+          {% for my_page in site.pages %}
+            {% if my_page.title %}
+            <li>
+              <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+            </li>
+            {% endif %}
+          {% endfor %}
+          <li>
+            <a class="page-link" href="/">Facebook</a>
+          </li>
+          <li>
+            <a class="page-link" href="/">Instagram</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-6 margin-top" style="padding:0px 1.5rem;">
+        <p class="ft-subtitle">&copy; Todos Direitos Reservados 2016.</p>
+      </div>
+      <div class="col-md-6 margin-top hidden-sm hidden-xs" style="padding:0px 1.5rem;">
+        <p class="ft-subtitle">Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <!-- <div class="col-md-7">
+        <p>{{ site.description }}</p>
+      </div> -->
     </div>
-    <div class="col-md-6 margin-top" style="padding:0px 1.5rem;">
-      <p class="ft-subtitle">&copy; Todos Direitos Reservados 2016.</p>
-    </div>
-    <div class="col-md-6 margin-top" style="padding:0px 1.5rem;">
-      <p class="ft-subtitle">Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </div>
-    <!-- <div class="col-md-7">
-      <p>{{ site.description }}</p>
-    </div> -->
   </div>
 </footer>

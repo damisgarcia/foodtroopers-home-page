@@ -171,7 +171,14 @@
  */
 .page-content {
   min-height: 600px;
-  padding: $spacing-unit 0;
+  padding: 0;
+}
+
+@media(max-width:750px){
+  .page-content{
+    padding-top: 30px;
+    min-height: auto;
+  }
 }
 
 .page-heading {
