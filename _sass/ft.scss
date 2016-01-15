@@ -23,7 +23,7 @@ footer{
   min-height: 480px;
   .ft-device{
     position: absolute;
-    top:5%;
+    top:0%;
     left:5%;
     z-index:9;
     opacity: 0.2;
@@ -32,12 +32,15 @@ footer{
       cursor:pointer;
     }
     &.active{
-      top:20%;
+      top:5%;
       left:20%;
       z-index: 10;
       opacity: 1;
       &:hover{
         cursor:default;
+      }
+      &.ios{
+        top:15%;
       }
     }
     .ft-gallery{
@@ -72,10 +75,10 @@ footer{
 
     .smartphone{
       position: relative;
-      width: 180px;
+      width: 240px;
       z-index: 1;
       &.ios{
-        width: 140px;
+        width: 200px;
       }
     }
   }

@@ -1,15 +1,40 @@
 ---
+name: collaborators
 layout: page
 title: Troopers
-permalink: /troopers/
+permalink: /collaborators/
 ---
-
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+<div class="container">
+<table class="table table-hover text-center margin-large-top">
+  <tbody>
+    <tr>
+      <td>Damis Garcia</td>
+      <td>
+        Web Developer, Web Designer
+        <a class='pull-right' href='https://github.com/damisgarcia' target='_blank'>Github</a>
+      </td>
+    </tr>  
+    <tr>
+      <td>Wedson Lima</td>
+      <td>
+        Web Developer, Architect
+        <a class='pull-right' href='https://github.com/damisgarcia' target='_blank'>Github</a>
+      </td>
+    </tr>  
+    <tr>
+      <td>Davi Linhares</td>
+      <td>
+        Android Developer
+        <a class='pull-right' href='https://github.com/damisgarcia' target='_blank'>Github</a>
+      </td>
+    </tr>  
+    <tr>
+      <td>Tiago Venâncio</td>
+      <td>
+        IOS Developer
+        <a class='pull-right' href='https://github.com/damisgarcia' target='_blank'>Github</a>
+      </td>
+    </tr>  
+  </tbody>
+</table>
+</div>
