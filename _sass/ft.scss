@@ -17,6 +17,22 @@ footer{
   }
 }
 
+footer [class^="icon-"]{
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+footer .social-link{
+  display: flex;
+  flex-direction: row;
+  border-radius: 0px;
+  padding: 2px 1.3rem;
+}
+
+footer .list-inline{
+  margin-bottom: 0px;
+}
+
 // Devices
 .ft-devices{
   position: relative;
@@ -178,6 +194,9 @@ footer{
 .ft-subtitle{
   font-size:90%;
   color:#666;
+  &:visited{
+    color:#666;
+  }
 }
 
 

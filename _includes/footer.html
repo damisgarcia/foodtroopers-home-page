@@ -1,35 +1,50 @@
 <footer>
   <div class="container">
     <div class="row around-xs">
-      <div class="col-md-12 center-xs">
-        <ul class="list-inline ft-bottom-nav pull-left">
+      <div class="col-md-12 margin-top">
+        <ul class="list-inline ft-bottom-nav">
           <li>
-            <a class="page-link" href="/">Home</a>
-          </li>
-          {% for my_page in site.pages %}
-            {% if my_page.title %}
-            <li>
-              <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-            </li>
-            {% endif %}
-          {% endfor %}
-          <li>
-            <a class="page-link" href="/">Facebook</a>
+            <a class="page-link" href="/">Página Inicial</a>
           </li>
           <li>
-            <a class="page-link" href="/">Instagram</a>
+            <a class="page-link" href="/about">Sobre</a>
+          </li>
+          <li>
+            <a class="page-link" href="/contact">Fale Conosco</a>
+          </li>
+          <li>
+            <a class="page-link" href="/collaborators/">The Troopers</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-xs-12 margin-top">
+        <hr>
+      </div>
+      <div class="col-md-6 margin-top" style="padding:0px 1.5rem;">
+        <ul class="list-inline">
+          <li>
+            <a href="{{site.facebook_url}}" class="social-link middle-xs">
+              <i class="icon-facebook"  alt="Facebook"></i> Facebook
+            </a>
+          </li>
+          <li>
+            <a href="{{site.instagram_url}}" class="social-link middle-xs">
+              <i class="icon-instagram" alt="Instagram"></i> Instagram
+            </a>
           </li>
         </ul>
       </div>
       <div class="col-md-6 margin-top" style="padding:0px 1.5rem;">
-        <p class="ft-subtitle">&copy; Todos Direitos Reservados 2016.</p>
+        <ul class="list-inline">
+          <li>
+            <a class="ft-subtitle" href="/privacy">Política de Privacidade</a>
+          </li>
+          <li>
+            <a class="ft-subtitle" href="/useterm">Termo de Uso</a>
+          </li>
+        </ul>
+        <p class="ft-subtitle">&copy; Todos Direitos Reservados 2016</p>
       </div>
-      <div class="col-md-6 margin-top hidden-sm hidden-xs" style="padding:0px 1.5rem;">
-        <p class="ft-subtitle">foodtroopes@gmail.com</p>
-      </div>
-      <!-- <div class="col-md-7">
-        <p>{{ site.description }}</p>
-      </div> -->
     </div>
   </div>
 </footer>

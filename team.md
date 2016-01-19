@@ -38,3 +38,8 @@ permalink: /collaborators/
   </tbody>
 </table>
 </div>
+<br>
+<div class="text-right">
+  <h5><b>Colaboradores</b></h5>
+  <p>Eduardo Ferreira - Designer</p>
+</div>
