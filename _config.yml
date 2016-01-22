@@ -9,8 +9,8 @@
 title: FoodTroopers
 email: foodtroopers@gmail.com
 description: "Seu Guia de Foodtrucks da Galáxia."
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://damisgarcia.github.io/foodtroopers-home-page/" # the base hostname & protocol for your site
+baseurl: "/foodtroopers-home-page" # the subpath of your site, e.g. /blog
+url: "http://damisgarcia.github.io/" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 facebook_url: http://facebook.com
