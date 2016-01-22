@@ -33,6 +33,10 @@ footer .list-inline{
   margin-bottom: 0px;
 }
 
+// a, a:visited, a:focus{
+//   color:#E74C3C;
+// }
+
 // Devices
 .ft-devices{
   position: relative;
@@ -74,8 +78,8 @@ footer .list-inline{
       animation-iteration-count: infinite;
 
       &.ios{
-        width: 85%;
-        height: 79%;
+        width: 82%;
+        // height: 79%;
         left: 8.5%;
         background-image: url("../assets/images/ios/01.jpeg");
         background-size: 100% 90%;
@@ -102,55 +106,55 @@ footer .list-inline{
 
 @keyframes iosGallery {
   0% {
-    background-image: url("../assets/images/ios/01.jpeg");
+    background-image: url("../assets/images/ios/01.jpg");
   }
   15% {
-    background-image: url("../assets/images/ios/01.jpeg");
+    background-image: url("../assets/images/ios/01.jpg");
   }
   30% {
-    background-image: url("../assets/images/ios/02.jpeg");
+    background-image: url("../assets/images/ios/02.jpg");
   }
   45% {
-    background-image: url("../assets/images/ios/02.jpeg");
+    background-image: url("../assets/images/ios/02.jpg");
   }
   60%{
-    background-image: url("../assets/images/ios/03.jpeg");
+    background-image: url("../assets/images/ios/03.jpg");
   }
   75%{
-    background-image: url("../assets/images/ios/03.jpeg");
+    background-image: url("../assets/images/ios/03.jpg");
   }
   90%{
-    background-image: url("../assets/images/ios/04.jpeg");
+    background-image: url("../assets/images/ios/04.jpg");
   }
   100%{
-    background-image: url("../assets/images/ios/01.jpeg");
+    background-image: url("../assets/images/ios/01.jpg");
   }
 }
 
 @keyframes androidGallery {
   0% {
-    background-image: url("../assets/images/android/01.webp");
+    background-image: url("../assets/images/android/01.jpg");
   }
   15% {
-    background-image: url("../assets/images/android/01.webp");
+    background-image: url("../assets/images/android/01.jpg");
   }
   30% {
-    background-image: url("../assets/images/android/02.webp");
+    background-image: url("../assets/images/android/02.jpg");
   }
   45% {
-    background-image: url("../assets/images/android/02.webp");
+    background-image: url("../assets/images/android/02.jpg");
   }
   60% {
-    background-image: url("../assets/images/android/03.webp");
+    background-image: url("../assets/images/android/03.jpg");
   }
   75% {
-    background-image: url("../assets/images/android/03.webp");
+    background-image: url("../assets/images/android/03.jpg");
   }
   90%{
-    background-image: url("../assets/images/android/04.webp");
+    background-image: url("../assets/images/android/04.jpg");
   }
   100%{
-    background-image: url("../assets/images/android/01.webp");
+    background-image: url("../assets/images/android/01.jpg");
   }
 }
 
