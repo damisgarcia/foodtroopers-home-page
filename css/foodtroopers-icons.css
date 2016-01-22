@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'foodtroopers';
+    src:    url('../fonts/ft.eot?jm2cl6');
+    src:    url('../fonts/ft.eot?jm2cl6#iefix') format('embedded-opentype'),
+        url('../fonts/ft.ttf?jm2cl6') format('truetype'),
+        url('../fonts/ft.woff?jm2cl6') format('woff'),
+        url('../fonts/ft.svg?jm2cl6#ft') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'foodtroopers' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+    content: "\e900";
+}
+.icon-instagram:before {
+    content: "\e901";
+}
