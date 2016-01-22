@@ -13,8 +13,8 @@ baseurl: "/foodtroopers-home-page" # the subpath of your site, e.g. /blog
 url: "http://damisgarcia.github.io/" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
-facebook_url: http://facebook.com
-instagram_url: http://facebook.com
+facebook_url: http://facebook.com/foodtroopersapp
+instagram_url: http://instagram.com/foodtroopers
 
 # Build settings
 markdown: kramdown
