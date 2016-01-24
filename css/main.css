@@ -521,20 +521,28 @@ footer .list-inline {
       left: 5%;
       width: 90%;
       height: 80%;
-      z-index: 0;
-      animation-duration: 12s;
-      animation-iteration-count: infinite; }
+      z-index: 0; }
       .ft-devices .ft-device .ft-gallery.ios {
         width: 82%;
         left: 8.5%;
-        background-image: url("../assets/images/ios/01.jpeg");
+        background-image: url("../assets/images/ios/01.jpg");
         background-size: 100% 90%;
         background-position: center center;
+        animation-duration: 12s;
+        animation-iteration-count: infinite;
         animation-name: iosGallery; }
+        .ft-devices .ft-device .ft-gallery.ios::after {
+          opacity: 0;
+          background-image: url("../assets/images/ios/02.jpg"); }
       .ft-devices .ft-device .ft-gallery.android {
-        background-image: url("../assets/images/android/01.webp");
+        background-image: url("../assets/images/android/01.jpg");
         animation-delay: 1s;
+        animation-duration: 12s;
+        animation-iteration-count: infinite;
         animation-name: androidGallery; }
+        .ft-devices .ft-device .ft-gallery.android::after {
+          opacity: 0;
+          background-image: url("../assets/images/ios/02.jpg"); }
     .ft-devices .ft-device .smartphone {
       position: relative;
       width: 240px;
@@ -546,6 +554,7 @@ footer .list-inline {
   0% {
     background-image: url("../assets/images/ios/01.jpg"); }
   15% {
+    background-color: red;
     background-image: url("../assets/images/ios/01.jpg"); }
   30% {
     background-image: url("../assets/images/ios/02.jpg"); }
