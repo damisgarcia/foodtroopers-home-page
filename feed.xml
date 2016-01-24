@@ -3,10 +3,10 @@
   <channel>
     <title>FoodTroopers</title>
     <description>Seu Guia de Foodtrucks da Galáxia.</description>
-    <link>http://damisgarcia.github.io//foodtroopers-home-page/</link>
-    <atom:link href="http://damisgarcia.github.io//foodtroopers-home-page/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 23 Jan 2016 23:12:00 -0300</pubDate>
-    <lastBuildDate>Sat, 23 Jan 2016 23:12:00 -0300</lastBuildDate>
+    <link>http://foodtroopers.com.br//</link>
+    <atom:link href="http://foodtroopers.com.br//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 24 Jan 2016 11:45:52 -0300</pubDate>
+    <lastBuildDate>Sun, 24 Jan 2016 11:45:52 -0300</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -27,8 +27,8 @@
 
 </description>
         <pubDate>Wed, 13 Jan 2016 12:32:56 -0300</pubDate>
-        <link>http://damisgarcia.github.io//foodtroopers-home-page/jekyll/update/2016/01/13/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://damisgarcia.github.io//foodtroopers-home-page/jekyll/update/2016/01/13/welcome-to-jekyll.html</guid>
+        <link>http://foodtroopers.com.br//jekyll/update/2016/01/13/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://foodtroopers.com.br//jekyll/update/2016/01/13/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
