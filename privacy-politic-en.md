@@ -1,6 +1,6 @@
 ---
 name: enprivacy
-title: Privacy Politic
+title: Privacy Policy
 layout: page
 permalink: /en/privacy/
 ---
