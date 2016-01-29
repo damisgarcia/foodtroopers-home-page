@@ -4,6 +4,20 @@ body{
   font-family: 'Noto Sans', sans-serif;
 }
 
+body{
+  // Bug Grid Browser
+  &.safari{
+    .row{
+      margin-left: 0px;
+      margin-right: 0px;
+      .col-md-6, .col-sm-6{
+        flex-basis:49% !important;
+        max-width: 49% !important;
+      }
+    }
+  }
+}
+
 footer{
   display: block;
   width: 100%;
@@ -249,4 +263,13 @@ footer .list-inline{
 
 .margin-large-right{
   margin-right: 2.8rem;
+}
+
+
+// Overide
+.col-md-6, .col-sm-6 {
+  -webkit-flex-basis: 49%;
+  -ms-flex-preferred-size: 49%;
+  flex-basis: 49%;
+  max-width: 49%;
 }
