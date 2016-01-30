@@ -629,8 +629,8 @@
   }
 
   .col-md-6 {
-    -webkit-flex-basis: 50%;
-    -ms-flex-preferred-size: 50%;
+    -webkit-flex-basis: 49.99%;
+    -ms-flex-preferred-size: 49.99%;
     flex-basis: 50%;
     max-width: 50%;
   }
