@@ -5,13 +5,8 @@
     <description>Seu Guia de Foodtrucks da Galáxia.</description>
     <link>http://foodtroopers.com.br//</link>
     <atom:link href="http://foodtroopers.com.br//feed.xml" rel="self" type="application/rss+xml"/>
-<<<<<<< HEAD
-    <pubDate>Sat, 30 Jan 2016 01:26:17 -0300</pubDate>
-    <lastBuildDate>Sat, 30 Jan 2016 01:26:17 -0300</lastBuildDate>
-=======
-    <pubDate>Thu, 28 Jan 2016 14:21:33 -0300</pubDate>
-    <lastBuildDate>Thu, 28 Jan 2016 14:21:33 -0300</lastBuildDate>
->>>>>>> c8a920d4477e110ce095ddd588629749fe5b5b6d
+    <pubDate>Sat, 30 Jan 2016 01:31:10 -0300</pubDate>
+    <lastBuildDate>Sat, 30 Jan 2016 01:31:10 -0300</lastBuildDate>
     <generator>Jekyll v3.1.0</generator>
     
       <item>

@@ -483,12 +483,8 @@ footer {
 
 @media (max-width: 750px) {
   footer {
-<<<<<<< HEAD
     background-color: #fff;
     box-shadow: 0px -5px 10px #ccc; }
-=======
-    background-color: #fff; }
->>>>>>> c8a920d4477e110ce095ddd588629749fe5b5b6d
     footer a {
       font-size: 0.8em; } }
 footer [class^="icon-"] {
