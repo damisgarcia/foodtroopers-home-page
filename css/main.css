@@ -508,7 +508,7 @@ footer .list-inline {
     top: 0%;
     left: 5%;
     z-index: 9;
-    opacity: 0.2;
+    opacity: 0.3;
     transition: all 1s ease; }
     .ft-devices .ft-device:hover {
       cursor: pointer; }
