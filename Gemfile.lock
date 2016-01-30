@@ -36,3 +36,9 @@ DEPENDENCIES
   jekyll
   jekyll-sass-converter
   kramdown
+<<<<<<< HEAD
+=======
+
+BUNDLED WITH
+   1.10.6
+>>>>>>> c8a920d4477e110ce095ddd588629749fe5b5b6d
